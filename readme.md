@@ -25,4 +25,5 @@ python obfuscator
 # Credits
 - kosuke14 (Obfuscator Sources)
 - yunglean4171 (Original Sources)
+- jmesfo0 (Original Sources)
 - CrxyScripter (Main Creator)
