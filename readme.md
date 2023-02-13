@@ -27,3 +27,6 @@ python obfuscator
 - yunglean4171 (Original Sources)
 - jmesfo0 (Original Sources)
 - CrxyScripter (Main Creator)
+
+# Error
+- If script has a error will returns obfuscated source (string, about 20KB~) or error.
