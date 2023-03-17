@@ -1,32 +1,36 @@
-# Lua-Obfuscator
-Simple discord bot written in python obfuscating lua files sent by user on specified channel.
+# Lua Obfuscator Bot (python 3.7.9)
 
-# Note
-- This is only supported on replit if you're looking for window you can go to the original (https://github.com/yunglean4171/discord-bot-lua-obfuscator)
-- This is created for mobile users that doesn't have computer.
-- This contains a byte lua obfuscator made by kosuke14.
+Simple discord bot written in python for obfuscating lua files sent by a user in a specific channel (also works in direct messages). 
+Useful for securing your lua scripts (work with fivem/roblox etc resources).
+<br><br><b>This is a modified version for repl and heroku.</b>
+If you are trying to run this from your desktop just use the original source from yunglean4171: https://github.com/yunglean4171/discord-bot-lua-obfuscator<br><br>
 
-# Installation
-- Import this project into replit after that go to token and type this following info :
-```
-  "key" : DISCORD_TOKEN
-  "value" : Your-Token-Here
-```
-- Run the whole code but it will return error because `install.txt` is not installed in shell.
-- To fix this go to shell then type this following info :
+
+In repl start a blank template and import from github.com. copy this website link <br>
+In repl put DISCORD_TOKEN in system environment variables. <br>
+In repl shell type the following:
 ```
 chmod +x bin/*
-pip install -r install.txt
-python obfuscator
+pip install -r requirements.txt
+python bot
 ```
-- Now run the whole code again and enjoy your free private obfuscator.
-- To make this only 24/7 go to (https://uptimerobot.com/)
+Enjoy your free private obfuscator.<br>
 
-# Credits
-- kosuke14 (Obfuscator Sources)
-- yunglean4171 (Original Sources)
-- jmesfo0 (Original Sources)
-- CrxyScripter (Main Creator)
 
-# Error
-- If script has a error will returns obfuscated source (string, about 20KB~) or error.
+## Required python modules:
+- Discord.py 
+- requests
+- Flask
+
+
+
+## Heroku Guide
+
+Fork this repoistory.<br />
+Create an app on Heroku.<br />
+Select Deploy->Github and connect your account.<br />
+Put repo name in.<br />
+Select Enable Automatic Deploys then Deploy Branch<br />
+Go to Settings->Reveal Config Vars<br />
+Add DISCORD_TOKEN in environmental variables.<br />
+Done.
