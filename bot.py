@@ -182,7 +182,7 @@ async def on_message(message):
                         
                         embed = discord.Embed(
                             title = "Success!",
-                            description = f"Enable Features :\n{status['lock']} Anti Tamper\n{status['lock']} String Encryption\n{status['lock']} Smaller Output\n{status['lock']} Constant Protection\n\n**Obfuscated code will be there in two seconds.**", 
+                            description = f"Enable Features :\n{status['lock']} Feature 1\n{status['lock']} Feature 2\n{status['lock']} Feature 3\n{status['lock']} Feature 4\n\n**Obfuscated code will be there in two seconds.**", 
                             color = 0x00FF00
                         )
                         await obfustext.edit(embed=embed)
